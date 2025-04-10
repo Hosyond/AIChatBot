@@ -8,8 +8,11 @@ This section will guide you through downloading and flashing the software and fi
 Flash Software and Bin File Download
 ------------------------------------------
 
+.. figure:: img/download2.png
+   :align: center
+
 1. You can visit our repository at: `GitHub Repository <https://github.com/Hosyond/AIChatBot>`_ or directly download the zip package from this link: `File Download <https://codeload.github.com/Hosyond/AIChatBot/zip/refs/heads/main>`_
-2. The downloaded zip package contains the latest version of the bin firmware files and flash tools
+2. The downloaded zip package contains the latest bin firmware, flash tools, and drivers
 3. Save the downloaded firmware files in an easily accessible location on your computer
 
 Before flashing, let's ensure that the drivers are properly installed.
