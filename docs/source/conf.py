@@ -10,9 +10,9 @@
 from pygments.lexers import Python3Lexer
 import time
 
-project = 'LAFVIN-DrawingBot-Doc'
-copyright = f'{time.localtime().tm_year}, Lafvin'
-author = 'LAFVIN'
+project = 'AIChatBot'
+copyright = f'{time.localtime().tm_year}, Hosyond'
+author = 'Hosyond'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

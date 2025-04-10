@@ -1,0 +1,84 @@
+.. _hardware_connect:
+
+Hardware Connection
+======================
+
+Hardware List
+----------------------
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Component
+     - Description
+   * - ESP32S3 Module (×1)
+     - Core microcontroller, responsible for processing voice recognition, AI dialogue, and other core functions
+   * - Breadboard (×2)
+     - Basic platform for assembling various hardware modules
+   * - INMP441 Microphone Module (×1)
+     - Captures user voice input
+   * - MAX98357A Amplifier & Speaker (×1)
+     - Plays voice responses
+   * - OLED IIC Screen
+     - Displays device status and conversation content
+   * - Buttons
+     - Provides physical interaction functions, such as waking up the device, resetting, etc.
+   * - Jumper Wires
+     - Connects various modules
+   * - USB Data Cable
+     - Provides power and data transmission
+
+Connection Diagram
+----------------------
+
+.. figure:: img/connect02.jpg
+   :alt: ESP32S3 Connection Diagram
+   :align: center
+
+The completed connection should look like the image above
+
+.. warning:: 
+  Be sure to connect the modules according to the connection diagram above, otherwise the modules may be damaged.
+
+Connection Instructions
+-------------------------
+
+The connection method between the ESP32S3 module and other components is as follows:
+
+**Microphone Module Connection**
+
+* VCC - 3.3V
+* GND - GND
+* WS  - GPIO4
+* SCK - GPIO5
+* SD  - GPIO6
+
+**Amplifier & Speaker Module Connection**
+
+* VCC - 3.3V
+* GND - GND
+* DIN - GPIO7
+* BCLK - GPIO15
+* LRC - GPIO16
+
+**OLED Display Module Connection**
+
+* VCC - 3.3V
+* GND - GND
+* SCL - GPIO42
+* SDA - GPIO41
+
+**Button Connection**
+
+* Volume+ - GPIO40
+* Volume- - GPIO39
+* Wake/Interrupt - GPIO0
+
+Assembly Steps
+----------------------
+
+1. Insert the ESP32S3 module into the central position of the breadboard
+2. Connect each module using jumper wires according to the connection instructions above
+3. Check that all connections are secure and avoid false connections
+4. Use a USB data cable to connect to the USB port of the ESP32S3 module
